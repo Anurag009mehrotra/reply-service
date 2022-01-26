@@ -72,20 +72,11 @@ Upon completing the task, please feel free to (though not required):
 - host your code on Github
 - include any readme to explain your setup/environment
 - add/implement anything you think would be beneficial
-
 ## Build project
 
 To build the project, simply run
 ```
-./gradlew build
-```
-
-## Start project
-
-To start the project, simply run
-```
-./gradlew bootRun
-```
+mvn clean install
 
 Once the service started, the endpoint will be available at `localhost:8080`, so you can make request to the service endpoint
 
